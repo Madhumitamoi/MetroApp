@@ -23,5 +23,14 @@ Explanation: Given the following undirected graph, the shortest distance from no
 For node 3, the possible paths are 1->2->3(cost = 6) or 1->4->3(cost = 4) or 1->2->5->3(cost = 8). The minimum of these three paths would be our answer which is 4.
 For node 5, the possible paths are 1->2->5(cost = 7) or 1->4->3->5(cost = 5) or 1->4->3->2->5(cost = 13). The minimum of these three paths would be our answer which is 5.
 
+Approach-
+1. We would be using a min-heap and a distance array of size N initialized with infinity (indicating that at present none of the nodes are reachable from the source node) and initialize the distance to source node as 0.
+2. We push the source node to the queue.
+3. For every node at the top of the queue we pop that element out and look out for its adjacent nodes. If the current reachable distance is better than the previous distance indicated by the distance array, we update the distance and push it in the queue.
+4. A node with a lower distance would be at the top of the priority queue as opposed to a node with a higher distance. By following the steps 3, until our queue becomes empty, we would get the minimum distance from the source node to all other nodes. Here’s a quick demonstration of the same.
+
+Code
+
+
 
 
