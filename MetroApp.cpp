@@ -188,7 +188,7 @@ virtual void display_Map();
 
 void <missing_class_definition>::display_Map()
 {
-			std::wcout << L"\t Delhi Metro Map" << std::endl;
+			std::wcout << L"\t Kolkata Metro Map" << std::endl;
 			std::wcout << L"\t------------------" << std::endl;
 			std::wcout << L"----------------------------------------------------\n" << std::endl;
 			std::vector<std::wstring> keys(vtces::keySet());
@@ -570,22 +570,22 @@ void <missing_class_definition>::Create_Metro_Map(std::shared_ptr<Graph_M> g)
 			g->addVertex(L"EM Bypass~PR");
 			g->addVertex(L"New market~P");
 
-			g->addEdge(L"Noida Sector 62~B", L"Botanical Garden~B", 8);
-			g->addEdge(L"Botanical Garden~B", L"Yamuna Bank~B", 10);
-			g->addEdge(L"Yamuna Bank~B", L"Vaishali~B", 8);
-			g->addEdge(L"Yamuna Bank~B", L"Rajiv Chowk~BY", 6);
-			g->addEdge(L"Rajiv Chowk~BY", L"Moti Nagar~B", 9);
-			g->addEdge(L"Moti Nagar~B", L"Janak Puri West~BO", 7);
-			g->addEdge(L"Janak Puri West~BO", L"Dwarka Sector 21~B", 6);
-			g->addEdge(L"Huda City Center~Y", L"Saket~Y", 15);
-			g->addEdge(L"Saket~Y", L"AIIMS~Y", 6);
-			g->addEdge(L"AIIMS~Y", L"Rajiv Chowk~BY", 7);
-			g->addEdge(L"Rajiv Chowk~BY", L"New Delhi~YO", 1);
-			g->addEdge(L"New Delhi~YO", L"Chandni Chowk~Y", 2);
-			g->addEdge(L"Chandni Chowk~Y", L"Vishwavidyalaya~Y", 5);
-			g->addEdge(L"New Delhi~YO", L"Shivaji Stadium~O", 2);
-			g->addEdge(L"Shivaji Stadium~O", L"DDS Campus~O", 7);
-			g->addEdge(L"DDS Campus~O", L"IGI Airport~O", 8);
+			g->addEdge(L"Sector 5~B", L"Botanical Garden~B", 8);
+			g->addEdge(L"Botanical Garden~B", L"Ganga Bank~B", 10);
+			g->addEdge(L"Ganga Bank~B", L"Alipore~B", 8);
+			g->addEdge(L"Ganga Bank~B", L"Park street~BY", 6);
+			g->addEdge(L"Park street~BY", L"Bhawanipore~B", 9);
+			g->addEdge(L"Bhawanipore~B", L"Maidan~BO", 7);
+			g->addEdge(L"Maidan~BO", L"Esplanade~B", 6);
+			g->addEdge(L"City Center~Y", L"Salt lake~Y", 15);
+			g->addEdge(L"Salt lake~Y", L"CMC~Y", 6);
+			g->addEdge(L"CMC~Y", L"Park street~BY", 7);
+			g->addEdge(L"Park street~BY", L"Kolkata~YO", 1);
+			g->addEdge(L"Kolkata~YO", L"Chandni Chowk~Y", 2);
+			g->addEdge(L"Chandni Chowk~Y", L"Victoria~Y", 5);
+			g->addEdge(L"Kolkata~YO", L"Eden gardens Stadium~O", 2);
+			g->addEdge(L"Eden gardens Stadium~O", L"Bidhannagar~O", 7);
+			g->addEdge(L"DDS Campus~O", L"Kolkata Airport~O", 8);
 			g->addEdge(L"Moti Nagar~B", L"Rajouri Garden~BP", 2);
 			g->addEdge(L"Punjabi Bagh West~P", L"Rajouri Garden~BP", 2);
 			g->addEdge(L"Punjabi Bagh West~P", L"Netaji Subhash Place~PR", 3);
