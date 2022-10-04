@@ -419,7 +419,7 @@ std::wstring <missing_class_definition>::Get_Minimum_Distance(const std::wstring
 			}
 		}
 	}
-//JAVA TO C++ CONVERTER TODO TASK: There is no C++ equivalent to 'toString':
+
 	ans = ans + Integer::toString(min);
 	return ans;
 }
@@ -428,7 +428,7 @@ virtual std::wstring Get_Minimum_Time(const std::wstring &src, const std::wstrin
 
 		virtual std::vector<std::wstring> get_Interchanges(const std::wstring &str);
 
-//.cpp file code:
+
 
 
 
@@ -496,7 +496,7 @@ std::wstring <missing_class_definition>::Get_Minimum_Time(const std::wstring &sr
 				}
 			}
 			std::optional<double> minutes = std::ceil(static_cast<double>(min) / 60);
-//JAVA TO C++ CONVERTER TODO TASK: There is no C++ equivalent to 'toString':
+
 			ans = ans + Double::toString(minutes);
 			return ans;
 }
@@ -533,7 +533,7 @@ std::vector<std::wstring> <missing_class_definition>::get_Interchanges(const std
 			arr.push_back(res[i]);
 		}
 	}
-//JAVA TO C++ CONVERTER TODO TASK: There is no C++ equivalent to 'toString':
+
 	arr.push_back(Integer::toString(count));
 	arr.push_back(res[res.size() - 1]);
 	return arr;
@@ -543,7 +543,7 @@ static void Create_Metro_Map(std::shared_ptr<Graph_M> g);
 
 		static std::vector<std::wstring> printCodelist();
 
-//.cpp file code:
+
 
 
 
@@ -650,7 +650,7 @@ std::vector<std::wstring> <missing_class_definition>::printCodelist()
 public:
 static void main(std::vector<std::wstring> &args);
 
-//Main function added by Java to C++ Converter:
+
 
 #include <string>
 #include <vector>
@@ -661,7 +661,7 @@ int main(int argc, char **argv)
 	main(args);
 }
 
-//.cpp file code:
+
 
 
 
