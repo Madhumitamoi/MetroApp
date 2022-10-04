@@ -48,7 +48,7 @@
 
 		virtual void removeEdge(const std::wstring &vname1, const std::wstring &vname2);
 
-//.cpp file code:
+
 
 
 
@@ -182,7 +182,7 @@ virtual void display_Map();
 			int compareTo(std::shared_ptr<DijkstraPair> o) override;
 		};
 
-//.cpp file code:
+
 
 
 
@@ -281,7 +281,6 @@ virtual int dijkstra(const std::wstring &src, const std::wstring &des, bool nan)
 	public:
 		virtual std::wstring Get_Minimum_Distance(const std::wstring &src, const std::wstring &dst);
 
-//.cpp file code:
 
 
 
