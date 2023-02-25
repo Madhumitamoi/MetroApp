@@ -1,4 +1,4 @@
-# Metro-App
+# Metro Navigation Algorithm
 A kolkata metro app demo.
 
 
